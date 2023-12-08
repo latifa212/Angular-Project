@@ -1,0 +1,9 @@
+<div *ngIf="allMeals">
+    <h2>Meals</h2>
+    <ul>
+        <li *ngFor="let meal of allMeals">
+            {{meal.strCategory}}
+         </li>
+    </ul>
+</div>
+
