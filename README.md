@@ -1,14 +1,14 @@
 # Angular-Project
 
 # Project Description :
-This project is a website about meals and their recipes. You have a home page with an introduction, with our logo, and all the buttons to navigate our site. For example, you have the buttons 'Home', 'All plates', 'About' and a search bar. Our site has a number of features such as meals exploration, intuitive search and random carousel to give you new ideas. 
+This project is a website about meals and their recipes. You have a home page with an introduction, with our logo, and all the buttons to navigate our site. For example, you have the buttons 'Home', 'All plates' and 'About'. Our site has a number of features such as meals exploration, intuitive search with the first letter and random carousel to give you new ideas. 
 
 # How to use it : 
 To navigate our website use the following buttons : 
 - Home : display the home page. 
 - All meals : to show a page with an alphabet where you can display all the meals by the first letter of their name. 
-- About : to display our names. 
-- Search bar : to research a specific meal. 
+- About : to display our names.
+- Read more : to display the instructions, ingredients and quantities. 
 
 # How to install it : 
 - Copy the link.
