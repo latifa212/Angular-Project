@@ -1,0 +1,22 @@
+<!-- Introduction Section -->
+<section class="intro-section text-center py-5">
+  <div class="container">
+    <!-- Main title -->
+    <h1 class="display-4 mb-4 custom-title">Discover a culinary adventure</h1>
+    
+    <!-- Subtitles -->
+    <p class="lead custom-text">Explore a variety of delicious dishes from around the world.</p>
+    <p class="lead custom-text">Find inspiration for your next meal and let the magic of the kitchen take you away.</p>
+
+    <!-- Image Carousel -->
+    <div>
+      <carousel>
+        <!-- Display random meal images using Angular ngFor directive -->
+        <slide *ngFor="let imageUrl of randomMealImages; let i = index">
+          <img [src]="imageUrl" [attr.aria-labelledby]="'mealName'+i" style="max-width: 100%; height: auto;" alt="Plat aléatoire">
+        </slide>
+      </carousel>
+    </div>
+  </div>
+</section>
+

@@ -1,0 +1,26 @@
+/* Styling for Carousel Control Icons */
+::ng-deep .carousel-control-prev-icon,
+::ng-deep .carousel-control-next-icon {
+ background-color: black;
+}
+
+/* Styling for Carousel Item Images */
+.carousel-item img {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Custom Title Styling */
+.custom-title {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
+  font-weight: bold;
+  font-size: 3em;
+  color: #da7c11; /* Custom title color */
+}
+
+/* Custom Text Styling */
+.custom-text {
+  font-family: cursive, sans-serif;
+  color: #804b00; /* Custom text color */
+  font-size: 20px;
+}

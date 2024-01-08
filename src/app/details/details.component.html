@@ -1,0 +1,29 @@
+<!-- Meal details container -->
+<div class="container mt-4">
+  <!-- Image container with meal name and image -->
+  <div class="img-container">
+      <h2>{{ mealDetails.strMeal }}</h2>
+      <img [src]="mealDetails.strMealThumb" class="img-fluid" alt="{{ mealDetails.strMeal }}">
+  </div>
+
+  <!-- Ingredients container with a list -->
+  <div class="ingredients-container">
+      <h3>Ingredients</h3>
+      <ul>
+          <!-- Loop through ingredients and quantities -->
+          <li *ngFor="let ingredient of ingredients; let i = index">{{ ingredient }} - {{ quantities[i] }}</li>
+      </ul>
+  </div>
+
+  <!-- Instructions container with a paragraph -->
+  <div class="instructions-container">
+      <h3>Instructions</h3>
+      <p>
+          <!-- Loop through each instruction line -->
+          <ng-container *ngFor="let instruction of mealDetails.strInstructions.split('\n')">
+              {{ instruction }}
+              <br>
+          </ng-container>
+      </p>
+  </div>
+</div>

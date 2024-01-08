@@ -1,0 +1,33 @@
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark border-bottom border-body" data-bs-theme="dark">
+  <div class="container-fluid">
+    <!-- Application Logo -->
+    <img src="https://www.themealdb.com/images/meal-icon.png" width="60" height="60">
+
+    <!-- Application Brand and Navigation Toggle Button -->
+    <a class="navbar-brand" routerLink="">THE MEAL </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navigation Links -->
+    <div class="collapse navbar-collapse" id="navbarScroll">
+      <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+        <!-- Home Link -->
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" routerLink="">Home</a>
+        </li>
+        
+        <!-- All Meals Link -->
+        <li class="nav-item">
+          <a class="nav-link" routerLink="all-meals">All meals</a>
+        </li>
+
+        <!-- About Link -->
+        <li class="nav-item">
+          <a class="nav-link" routerLink="about">About</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
