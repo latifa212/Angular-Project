@@ -21,6 +21,6 @@ Search bar : to research a specific meal.
 - Copy the link in your browser.
 
 # Authors :
-EL AMRANI Latifa 
-ESTEBAN Jade
-SAID SOILIHI Salma
+EL AMRANI Latifa, 
+ESTEBAN Jade,
+SAID SOILIHI Salma.
