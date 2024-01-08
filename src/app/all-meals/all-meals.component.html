@@ -1,0 +1,30 @@
+<div class="container">
+  <!-- Container for layout styling -->
+  <div class="d-flex justify-content-center mt-3">
+    <!-- Flex container to center-align buttons with top margin of 3 units -->
+    <button *ngFor="let letter of lettersToDisplay" type="button" class="btn btn-secondary" (click)="getMealsByLetter(letter)">
+      {{ letter }}
+    </button>
+    <!-- Button for each letter with secondary style -->
+  </div>
+
+  <div class="row">
+    <!-- Row container for card layout -->
+    <div class="card col-lg-3 mx-2 mb-3" style="width: 19em;" *ngFor="let d of topheadingDisplay">
+      <!-- Card layout with specific styling -->
+      <img src="{{d.strMealThumb}}" class="card-img-top" alt="...">
+      <!-- Card image with top placement -->
+      <div class="card-body">
+        <!-- Card body section -->
+        <h5 class="card-title">{{d.strMeal}}</h5>
+        <!-- Title with meal name -->
+        <p class="card-text">{{d.strInstructions | slice:0:90}}...</p>
+        <!-- Paragraph with instructions, sliced to 90 characters followed by ellipsis -->
+        <a [routerLink]="['/details', d.idMeal]" class="btn btn-secondary">Read more</a>
+        <!-- Button for navigating to details with secondary style -->
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End of container -->
+

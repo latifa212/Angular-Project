@@ -1,0 +1,8 @@
+/* Navigation Item Styling */
+.nav-item {
+    padding: 0 10px; /* Set horizontal padding for each navigation item */
+    font-size: 1.3em; /* Set the font size */
+    font-weight: bold; /* Set font weight to bold */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif; /* Specify font family */
+}
+  
