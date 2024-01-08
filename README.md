@@ -5,10 +5,10 @@ This project is a website about meals and their recipes. You have a home page wi
 
 # How to use it : 
 To navigate our website use the following buttons : 
-Home : display the home page. 
-All meals : to show a page with an alphabet where you can display all the meals by the first letter of their name. 
-About : to display our names. 
-Search bar : to research a specific meal. 
+- Home : display the home page. 
+- All meals : to show a page with an alphabet where you can display all the meals by the first letter of their name. 
+- About : to display our names. 
+- Search bar : to research a specific meal. 
 
 # How to install it : 
 - Copy the link.
