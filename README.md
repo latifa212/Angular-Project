@@ -1,27 +1,27 @@
-# Project
+# Angular-Project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.10.
+# Project Description :
+This project is a website about meals and their recipes. You have a home page with an introduction, with our logo, and all the buttons to navigate our site. For example, you have the buttons 'Home', 'All plates' and 'About'. Our site has a number of features such as meals exploration, intuitive search with the first letter and random carousel to give you new ideas. 
 
-## Development server
+# How to use it : 
+To navigate our website use the following buttons : 
+- Home : display the home page. 
+- All meals : to show a page with an alphabet where you can display all the meals by the first letter of their name. 
+- About : to display our names.
+- Read more : to display the instructions, ingredients and quantities. 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+# How to install it : 
+- Copy the link.
+- Open a terminal.
+- Create a folder.
+- Use this command 'git clone <link>'.
+- Enter the project.
+- Use this command 'npm install'.
+- Use this command 'ng serve'.
+- Copy the link in your browser.
 
-## Code scaffolding
+# Authors :
+EL AMRANI Latifa, 
+ESTEBAN Jade,
+SAID SOILIHI Salma.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
